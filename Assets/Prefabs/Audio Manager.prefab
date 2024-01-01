@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3963737259998093098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5791057673894532598}
+  - component: {fileID: 98513460058386870}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5791057673894532598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3963737259998093098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &98513460058386870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3963737259998093098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed22cf0e73a2e44a82f62d036d3cf76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound_list:
+  - name: Button Sound
+    clip: {fileID: 8300000, guid: d001ae095162e954f8d508242240d3cf, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Forest Ambience
+    clip: {fileID: 8300000, guid: 5569067916bf837478a2274356cf306d, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Coin Sound
+    clip: {fileID: 8300000, guid: 311d8b06213ff6840a73f913eef62a93, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Cone Sound
+    clip: {fileID: 8300000, guid: 1790f935838169045858b73a031dbc3f, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Car 1 Sound
+    clip: {fileID: 8300000, guid: f30d94c0d81cccc498c27a6f9795a670, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Car 2 Sound
+    clip: {fileID: 8300000, guid: 845e1722bfa103440b0c61825a570388, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Shield Sound
+    clip: {fileID: 8300000, guid: 9cd21edb89d8cc84f9f2719b88516dcd, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Countdown
+    clip: {fileID: 8300000, guid: 336fc43d408c7444d8fdb6bcc4f3f63d, type: 3}
+    volume: 0.75
+    source: {fileID: 0}
+  - name: In Game BGM
+    clip: {fileID: 8300000, guid: a614d6b3244267a41a7eb8d4299bcb36, type: 3}
+    volume: 0.25
+    source: {fileID: 0}
+  - name: Game Over Sound
+    clip: {fileID: 8300000, guid: b3121906be54e3346acbaa9b05021e16, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Cutscene BGM
+    clip: {fileID: 8300000, guid: 953af9691bc7c4e45aa2dbf76500c122, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: River Sound
+    clip: {fileID: 8300000, guid: 6f559754936f8ac45a8c05d71c638df8, type: 3}
+    volume: 0.2
+    source: {fileID: 0}
+  - name: Keyboard Click
+    clip: {fileID: 8300000, guid: 757e737ebae827741ade7a7a16f03edb, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Magnet Sound
+    clip: {fileID: 8300000, guid: 00250e4b82daf7e4694c0763d1d8709b, type: 3}
+    volume: 1
+    source: {fileID: 0}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Set Up.unity
+    guid: daa5f118e08d08a48b20059f345a4cac
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: e00e19b8f23105743a488768c427f105
+  - enabled: 1
+    path: Assets/Scenes/Sign In.unity
+    guid: c7f0824f4a747bc45b8fa4903a31872e
+  - enabled: 1
+    path: Assets/Scenes/Set Display Name.unity
+    guid: be6d705c56a22a749a9086ab47f7ade7
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: f32369fac28b0524a83e2da91d2ef92c
+  - enabled: 1
+    path: Assets/Scenes/Select Character.unity
+    guid: 2f91891808685f1499dfdbf59e97b09a
+  - enabled: 1
+    path: Assets/Scenes/Select Level.unity
+    guid: f69a19eed5612d94fb578922c3b51eb9
+  - enabled: 1
+    path: Assets/Scenes/In Game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Guide.unity
+    guid: 6395e254a7517744dbdff657ba341c9e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3abd97bf1530bcc4b9b982e0473334e7
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 145ed0fb7ac01a642aaccad554c59a70
+  - enabled: 1
+    path: Assets/Scenes/Set Investment Risk.unity
+    guid: 5030ff66dd357554789f7e67fd95160c
+  - enabled: 1
+    path: Assets/Scenes/Investment.unity
+    guid: 6ad68099d861c004592a6b5aaa98f5b0
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 4aeb3a74153332e4c8213d454964f69c
+  - enabled: 1
+    path: Assets/Scenes/Achievements.unity
+    guid: 97157b6a461f7684590397b04a771837
+  - enabled: 1
+    path: Assets/Scenes/Leaderboards.unity
+    guid: 0b22516e7fef7164bbc650ba07938a4f
+  m_configObjects: {}
